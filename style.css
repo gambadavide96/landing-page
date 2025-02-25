@@ -90,3 +90,51 @@
   max-width: 500px;
  }
 
+ .information {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+
+  padding-top: 50px;
+  padding-bottom: 100px;
+  padding-left: 150px;
+  padding-right: 150px;
+ }
+
+ .information-title {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1F2937;
+ }
+
+ .information .container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+ }
+
+ .information .img {
+  height: 150px;
+  width: 150px;
+  border: solid 3px royalblue ;
+  border-radius: 10px;
+ }
+
+ .information .info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  max-width: 200px;
+ }
+
+ .information .text {
+  text-align: center;
+ }
+
+ .inspiring-quote {
+  background-color: #E5E7EB;
+ }
+
